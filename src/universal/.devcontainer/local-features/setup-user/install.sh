@@ -79,6 +79,9 @@ HUGO_ROOT="/home/${USERNAME}/.hugo/current"
 mkdir -p /home/${USERNAME}/.hugo
 ln -snf /usr/local/hugo $HUGO_ROOT
 
+RUST_ROOT="/home/${USERNAME}/.cargo"
+ln -snf /usr/local/cargo $RUST_ROOT
+
 HOME_DIR="/home/${USERNAME}/"
 chown -R ${USERNAME}:${USERNAME} ${HOME_DIR}
 chmod -R g+r+w "${HOME_DIR}"

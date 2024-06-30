@@ -10,6 +10,7 @@
         "RUBY_ROOT": "/home/codespace/.ruby",
         "MAVEN_ROOT": "/home/codespace/.maven",
         "HUGO_ROOT": "/home/codespace/.hugo",
+		"RUST_ROOT": "/home/codespace/.rust",
         "DOTNET_SKIP_FIRST_TIME_EXPERIENCE": "1",
         "NUGET_XMLDOC_MODE": "skip",
         "ORYX_ENV_TYPE": "vsonline-present",

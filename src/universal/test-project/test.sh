@@ -116,6 +116,9 @@ check "conda" conda --version
 # Go
 check "go" go version
 
+# Rust
+check "rust" rustc --version
+
 # Check utilities
 checkOSPackages "additional-os-packages" vim xtail software-properties-common
 check "gh" gh --version
